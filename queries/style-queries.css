@@ -1,0 +1,209 @@
+/*---- Large Screen Devices ----*/
+@media (min-width: 968px) and (max-width: 1024px) {
+    /*---- header 2 ----*/
+    .download-title h2, .watch-title h2, .profile-title h2 {
+        font-size: 2.5rem;
+    }
+
+    /*---- tv section ----*/
+    .tv-content {
+        width: 90%;
+    }
+
+    /*---- download section ----*/
+    .download-content {
+        width: 95%;
+    }
+
+    .download-image {
+        width: initial;
+    }
+
+    /*---- profile section ----*/
+    .profile-content {
+        width: 95%;
+    }
+    
+    /*---- faq section ----*/
+    .faq-head h2 {
+        font-size: 2.3rem;
+    }
+
+    /*---- footer section ----*/
+    .footer-content {
+        width: 90%;
+    }
+}
+
+/*--- Large Mobile to Tablet Screen Devices ----*/
+@media (min-width: 460px) and (max-width: 967px) {
+    /*---- header 2 ----*/
+    .tv-title h2, .download-title h2, .watch-title h2, .profile-title h2, .faq-head h2 {
+        font-size: 2.2rem;
+    }
+
+    /*---- paragraph ----*/
+    .signup-content-title p, .tv-paragraph p, .download-paragraph p, .watch-paragraph p, .profile-paragraph p {
+        font-size: 1.2rem;
+    }
+
+    .tv-paragraph, .download-paragraph, .watch-paragraph, .profile-paragraph {
+        width: 100%;
+    }
+
+    /*--- sign-up section ---*/
+    .signup-content-title h1 {
+        font-size: 2.3rem;
+    }
+
+    .content-signup h4 {
+        font-size: 0.9rem;
+    }
+
+    input[type="email"] {
+        padding: 10px;
+    }
+
+    #get-started {
+        font-size: 0.8rem;
+        padding: 0.3em 0.5em;
+    }
+
+    /*---- tv section ----*/
+    .tv-content {
+        flex-direction: column;
+    }
+
+    .tv-text {
+        text-align: center;
+    }
+
+    /*---- download section ----*/
+    .download-content {
+        flex-direction: column;
+    }
+
+    .download-text {
+        text-align: center;
+    }
+
+    /*---- watch section ----*/
+    .watch-text {
+        text-align: center;
+    }
+
+    /*---- profile section ----*/
+    .profile-content {
+        flex-direction: column;
+    }
+
+    .profile-text {
+        text-align: center;
+    }
+
+    /* faq section */
+    #myaccordion label {
+        font-size: 1.1rem;
+    }
+
+    /* footer section */
+    .footer-content {
+        width: 90%;
+    }
+
+    .contact-us {
+        flex-wrap: wrap;
+    }
+}
+
+/*---- Mobile Screen Devices ----*/
+@media (max-width: 459px) {
+    
+    /*---- header 2 ----*/
+    .tv-title h2, .download-title h2, .watch-title h2, .profile-title h2, .faq-head h2 {
+        font-size: 1.5rem;
+    }
+
+    /*---- paragraph ----*/
+    .signup-content-title p, .tv-paragraph p, .download-paragraph p, .watch-paragraph p, .profile-paragraph p {
+        font-size: 0.9rem;
+    }
+
+    .tv-paragraph, .download-paragraph, .watch-paragraph, .profile-paragraph {
+        width: 100%;
+    }
+
+    /*--- sign-up section ---*/
+    .signup-content-title h1 {
+        font-size: 2rem;
+    }
+
+    .content-signup h4 {
+        font-size: 0.8rem;
+    }
+
+    .email-form {
+        flex-direction: column;
+    }
+
+    .email-address {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    input[type="email"] {
+        padding: 0.7em;
+    }
+
+    #get-started {
+        font-size: 0.9rem;
+        padding: 0.4em 1.1em;
+    }
+
+    /*---- tv section ----*/
+    .tv-content {
+        flex-direction: column;
+    }
+
+    .tv-text {
+        text-align: center;
+    }
+
+    /*---- download section ----*/
+    .download-content {
+        flex-direction: column;
+    }
+
+    .download-text {
+        text-align: center;
+    }
+
+    /*---- watch section ----*/
+    .watch-text {
+        text-align: center;
+    }
+
+    /*---- profile section ----*/
+    .profile-content {
+        flex-direction: column;
+    }
+
+    .profile-text {
+        text-align: center;
+    }
+
+    /* faq section */
+    #myaccordion label {
+        font-size: 0.9rem;
+    }
+
+    /* footer section */
+    .footer-content {
+        width: 90%;
+    }
+
+    .contact-us {
+        flex-wrap: wrap;
+    }
+
+}

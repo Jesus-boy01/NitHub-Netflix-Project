@@ -1,0 +1,390 @@
+/*---- BASIC SETUP ----*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.netflix-button {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 10px 17px;
+    border-radius: 3px;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+/*---- landing-sign-up section ----*/
+
+.landing-sign-up-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/landing-page-bg.jpg");
+    background-size: cover;
+    height: 680px;
+    border-bottom: 8px solid rgb(56, 55, 55);
+}
+
+.header-nav {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.netflix-signin {
+    padding-top: 0.5em;
+}
+
+.netflix-signin a {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #fff;
+    padding: 10px 17px;
+    border-radius: 3px;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.netflix-signup-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.signup-content-title h1 {
+    font-size: 2.7rem;
+    margin-bottom: 0.5em;
+}
+
+.signup-content-title p {
+    font-size: 1.5rem;
+}
+
+.content-signup h4 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+.email-form {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.email-address{
+    width: 50%;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+}
+
+#get-started {
+    padding: 14px 20px;
+    font-size: 1.2rem;
+}
+
+/*---- tv section ----*/
+
+.tv-section {
+    background-color: #000;
+    padding: 4em 0;
+    border-bottom: 10px solid rgb(56, 55, 55);
+}
+
+.tv-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.tv-text {
+    color: #fff;
+}
+
+.tv-title h2 {
+    font-size: 2.8rem;
+}
+
+.tv-paragraph {
+    width: 80%;
+}
+
+.tv-paragraph p {
+    font-size: 1.4rem;
+}
+
+.tv-text, .tv-object {
+    margin: auto;
+}
+
+.tv-object {
+    position: relative;
+}
+
+.tv-video {
+    position: absolute;
+    left: 60px;
+}
+
+/*---- download section ----*/
+
+.download-section {
+    background-color: #000;
+    padding: 4em 0;
+    border-bottom: 10px solid rgb(56, 55, 55);
+}
+
+.download-content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.download-text, .download-image {
+    margin: auto;
+}
+
+.download-image {
+    width: 65%;
+    position: relative;
+}
+
+.download-image img {
+    mix-blend-mode: screen;
+}
+
+.download-overlay {
+    display: flex;
+    position: absolute;
+    top: 225px;
+    left: 80px;
+    background-color: #000;
+    padding: 10px 15px;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 10px;
+    width: auto;
+    align-items: center;
+}
+
+.overlay-image {
+    display: flex;
+    flex: 2;
+    color: #fff;
+}
+
+.overlay-image img {
+    margin-right: 1em;
+}
+
+.overlay-title-head {
+    margin-bottom: 0;
+}
+
+.overlay-title-text {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #0071eb;
+}
+
+.download-text {
+    color: #fff;
+}
+
+.download-title h2 {
+    font-size: 2.8rem;
+}
+
+.download-paragraph {
+    width: 80%;
+}
+
+.download-paragraph p {
+    font-size: 1.4rem;
+}
+
+/*---- watch section ----*/
+.watch-section {
+    background-color: #000;
+    padding: 2em 0;
+    border-bottom: 10px solid rgb(56, 55, 55);
+}
+
+.watch-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.watch-text {
+    color: #fff;
+}
+
+.watch-title h2 {
+    font-size: 2.8rem;
+}
+
+.watch-paragraph {
+    width: 60%;
+}
+
+.watch-paragraph p {
+    font-size: 1.4rem;
+}
+
+/*---- profile section ----*/
+
+.profile-section {
+    background-color: #000;
+    padding: 4em 0;
+    border-bottom: 10px solid rgb(56, 55, 55);
+}
+
+.profile-content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.profile-text {
+    color: #fff;
+}
+
+.profile-title h2 {
+    font-size: 2.8rem;
+}
+
+.profile-paragraph {
+    width: 80%;
+}
+
+.profile-paragraph p {
+    font-size: 1.4rem;
+}
+
+.profile-text, .profile-image {
+    flex: 2;
+    margin: auto;
+}
+
+/*---- faq section ----*/
+
+.faq-section {
+    background-color: #000;
+    padding: 4em 0;
+    border-bottom: 10px solid rgb(56, 55, 55);
+    color: #fff;
+}
+
+.faq-head, .faq-body {
+    width: 60%;
+    margin: auto;
+}
+
+.faq-head h2 {
+    margin: 0 0 1em;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.hidecontent {
+    display: none;
+}
+
+.information-title {
+    display: flex;
+}
+
+#myaccordion label {
+    display: block;    
+    padding: 1em 1.2em;
+    margin: 0.4em 0 0.1em;
+    cursor: pointer;
+    background: #303030;
+    transition: ease .5s;
+    font-size: 1.3rem;
+}
+
+.faq-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #303030;
+}
+
+.content {
+    background: #303030;
+    padding: 10px 25px;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+#myaccordion input:checked + label + .content {
+    display: block;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/*---- footer section ----*/
+
+.footer-section {
+    background-color: #000;
+    padding: 2em 0;
+}
+
+.footer-content {
+    width: 70%;
+    margin: auto;
+}
+
+.footer-title a, .contact-us-links a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-title h6 {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 0.8em;
+}
+
+.contact-us {
+    display: flex;
+}
+
+.contact-us-links ul {
+    margin-right: 5em;
+    padding-left: 0;
+}
+
+.contact-us-links li {
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+}
+
+.footer-title a:hover, .contact-us-links a:hover {
+    text-decoration: underline;
+}
